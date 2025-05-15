@@ -1,0 +1,19 @@
+
+
+## 🚀 How to Run
+1. Upload `claims_data.csv` to Azure Data Lake or use `dbfs:/FileStore/claims_data.csv` in Databricks
+2. Run `notebooks/healthcare_claims_analysis.ipynb` in Databricks
+3. View outputs in Spark UI or save to Parquet
+
+---
+
+### 🔹 STEP 6: **Push to GitHub**
+
+1. Create a new repo on GitHub: `azure-databricks-healthcare-analysis`
+2. Then push your code:
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/azure-databricks-healthcare-analysis.git
+git add .
+git commit -m "Initial commit: Databricks healthcare analysis"
+git push -u origin master
