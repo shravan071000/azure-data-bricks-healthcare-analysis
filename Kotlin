@@ -1,0 +1,9 @@
+azure-databricks-healthcare-analysis/
+├── data/
+│   └── claims_data.csv
+├── notebooks/
+│   └── healthcare_claims_analysis.ipynb
+├── screenshots/
+│   └── dashboard.png
+├── README.md
+└── .gitignore
